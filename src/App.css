@@ -1,38 +1,82 @@
 .App {
-  text-align: center;
+  background-color: #252D37;
+  width: 340px;
+  height: 340px;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 30vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.star-container {
+  background-color: #35414F;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  left: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.star-container img {
+  position: relative;
+  top: 11.5px;
+  left: 12px;
+  width: 40%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text-container {
+  padding-top: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.text-container h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.text-container p {
+  color: #959EAC;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+.numbers-cont {
   display: flex;
-  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-content: space-between;
+  cursor: pointer;
+
+}
+
+.number {
+  background-color: #35414F;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+button {
+  background-color: #FB7413;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
   color: white;
+  border-radius: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 83%;
+  cursor: pointer;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selected {
+  background-color: #FB7413;
 }
