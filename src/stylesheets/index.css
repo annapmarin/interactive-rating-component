@@ -2,15 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Overpass', sans-serif;
-  font-size: 15px;
 }
 
 html {
   background-color: #121417;
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

@@ -1,0 +1,22 @@
+main {
+  background-color: #252D37;
+  width: 340px;
+  height: 340px;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+
+footer {
+  text-align: center;
+  margin-top: 80px;
+  color: #959EAC;
+}
+
+footer a {
+  color:#959EAC;
+}
+
+footer a:hover {
+  color: #FB7413;
+}

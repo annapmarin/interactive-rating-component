@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import iconStar from '../img/icon-star.svg';
-import "./card.css";
-import "./thank-you.css";
+import "../stylesheets/card.css"
+import "../stylesheets/thank-you.css";
 import ThankYouIllustration from "../img/illustration-thank-you.svg";
 
 const Card = () => {
